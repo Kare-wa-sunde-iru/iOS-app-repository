@@ -1,141 +1,176 @@
 {
-    "name": "My Example Source",
-    "subtitle": "All my apps in one place.",
-    "description": "Welcome to my source! Here you'll find all of my apps.",
-    "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
-    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
-    "website": "https://example.com",
-    "tintColor": "#4185A9",
-    "featuredApps": [
-        "com.example.myapp",
-        "com.example.anotherapp"
-    ],
-    "apps": [
+  "name": "テストソース",
+  "identifier": "test.side.unoffical",
+  "sourceURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/Example%20source.json",
+  "sourceIconURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/SideIron.png",
+  "userinfo": {},
+  "apps": [
+    {
+      "name": "ShowMaina",
+      "bundleIdentifier": "com.cypwn.O3C.showmania",
+      "developerName": "O3C",
+      "version": "1.0.5",
+      "versionDate": "2023-05-12T23:59:49Z",
+      "versionDescription": "# v1.0.5\n\n",
+      "downloadURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/Apps/ShowMania_1.0.5_1702971015.ipa",
+      "localizedDescription": "From the creators of HDO Box cracked by O3C",
+      "iconURL": "https://i.imgur.com/tHSYAwS.jpg",
+      "tintColor": "#5F1B09",
+      "size": 14509458,
+      "screenshotURLs": [
+		"https://ipa.cypwn.xyz/serve/screenshots/DramaFlix_1.1.0/DramaFlix_1.1.0.ipa655.png",
+                "https://ipa.cypwn.xyz/serve/screenshots/DramaFlix_1.1.0/DramaFlix_1.1.0.ipa106.png"
+            ],
+      "subtitle": "Movie App",
+      "absoluteVersion": "1.0.5",
+      "appID": "com.cypwn.O3C.showmania",
+      "versions": [
         {
-            "name": "My Example App",
-            "bundleIdentifier": "com.example.myapp",
-            "developerName": "Example Developer",
-            "subtitle": "An awesome app.",
-            "localizedDescription": "This is an awesome app only available on AltStore.",
-            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
-            "tintColor": "#5CA399",
-            "screenshots": [
-                "https://example.com/myapp_portrait_screenshot1.png",
-                "https://example.com/myapp_portrait_screenshot2.png",
-                {
-                    "imageURL": "https://example.com/myapp_landscape_screenshot.png",
-                    "width": 2556,
-                    "height": 1179
-                }
-            ],
-            "versions": [
-                {
-                    "version": "1.1",
-                    "date": "2022-05-01T09:00:00-08:00",
-                    "size": 20000000,
-                    "downloadURL": "https://example.com/myapp_v1.1.ipa",
-                    "localizedDescription": "New features and bug fixes.",
-                    "minOSVersion": "12.0"
-                },
-                {
-                    "version": "1.0",
-                    "date": "2022-03-16T07:00:00-08:00",
-                    "size": 10000000,
-                    "downloadURL": "https://example.com/myapp_v1.0.ipa",
-                    "localizedDescription": "Initial release."
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [
-                    "com.apple.security.application-groups",
-                    "com.apple.developer.siri"
-                ],
-                "privacy": {
-                    "NSPhotoLibraryUsageDescription": "App saves photos to your Photo Library.",
-                    "NSCameraUsageDescription": "App uses camera to take photos.",
-                    "NSMicrophoneUsageDescription": "App uses microphone to record video."
-                }
-            }
-        },
-        {
-            "name": "Another Example App",
-            "bundleIdentifier": "com.example.anotherapp",
-            "developerName": "Example Developer",
-            "subtitle": "Another awesome app.",
-            "localizedDescription": "This is another awesome app only available on AltStore.",
-            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/SharkApp.png",
-            "tintColor": "#3660A2",
-            "screenshots": {
-                "iphone": [
-                    "https://example.com/anotherapp_portrait_1.png",
-                    "https://example.com/anotherapp_portrait_2.png",
-                    {
-                        "imageURL": "https://example.com/anotherapp_landscape.png",
-                        "width": 2556,
-                        "height": 1179
-                    }
-                ],
-                "ipad": [
-                    {
-                        "imageURL": "https://example.com/anotherapp_ipad_portrait.png",
-                        "width": 1668,
-                        "height": 2388
-                    },
-                    {
-                        "imageURL": "https://example.com/anotherapp_ipad_landscape.png",
-                        "width": 2388,
-                        "height": 1668
-                    }
-                ]
-            },
-            "versions": [
-                {
-                    "version": "1.2",
-                    "date": "2022-06-21T09:00:00-08:00",
-                    "downloadURL": "https://example.com/anotherapp_v1.2.ipa",
-                    "localizedDescription": "Bug fixes and performance improvements.",
-                    "size": 81514,
-                    "minOSVersion": "13.0"
-                },
-                {
-                    "version": "1.1",
-                    "date": "2022-04-15T10:00:00-08:00",
-                    "downloadURL": "https://example.com/anotherapp_v1.1.ipa",
-                    "localizedDescription": "New features!",
-                    "size": 81364,
-                    "minOSVersion": "13.0",
-                    "maxOSVersion": "16.3"
-                },
-                {
-                    "version": "1.0",
-                    "date": "2022-02-02T07:00:00-08:00",
-                    "downloadURL": "https://example.com/anotherapp_v1.0.ipa",
-                    "localizedDescription": "Initial release.",
-                    "size": 79821
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [
-                    "com.apple.developer.healthkit",
-                    "com.apple.developer.game-center"
-                ],
-                "privacy": {
-                    "NSLocalNetworkUsageDescription": "App scans the local network for nearby computers."
-                }
-            }
+          "version": "1.0.5",
+          "date": "2022-09-18T23:59:49Z",
+          "downloadURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/Apps/ShowMania_1.0.5_1702971015.ipa",
+          "localizedDescription": "# v1.0.5\n\n",
+          "size": 13840000,
+          "absoluteVersion": "1.0.5"
         }
-    ],
-    "news": [
+      ]
+    },
+    {
+      "name": "Event Manager",
+      "bundleIdentifier": "com.eventmanager.movie.SPLWRK",
+      "developerName": "SloppyWrk",
+      "version": "2.5",
+      "versionDate": "2024-05-10T23:59:49Z",
+      "versionDescription": "Very Good, Very Nice, Movie App - SloppyWrk | Kare's note If you don't see what the screenshots have shown then you will have to reinstall the app again until it shows up.",
+      "downloadURL": "https://github.com/Kare-wa-sunde-iru/iOS-app-repository/releases/download/%E3%81%93%E3%82%8C%E3%81%AF%E9%A6%AC%E9%B9%BF%E3%81%92%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/Event.Manager.SPLWRK.ipa",
+      "localizedDescription": "Very Good, Very Nice, Movie App - SloppyWrk | Kare's note If you don't see what the screenshots have shown then you will have to reinstall the app again until it shows up",
+      "iconURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/EveMan.png",
+      "tintColor": "#00d5ca",
+      "size": 31320000,
+      "screenshotURLs": [
+		"https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/Screenshots/EveMan1.png",
+                "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/Screenshots/EveMan2.png"
+            ],
+      "subtitle": "SloppyWrk Movie App",
+      "absoluteVersion": "2.2",
+      "appID": "com.eventmanager.movie.SPLWRK",
+      "versions": [
         {
-            "title": "New Feature Announcement",
-            "identifier": "new_feature",
-            "caption": "Introducing a new feature in AltStore!",
-            "date": "2023-03-15",
-            "tintColor": "#5CA399",
-            "imageURL": "https://example.com/new_feature_image.png",
-            "notify": true,
-            "url": "https://example.com/new_feature_details"
-        },
+          "version": "2.2",
+          "date": "2024-01-10T23:59:49Z",
+          "downloadURL": "https://github.com/Kare-wa-sunde-iru/iOS-app-repository/releases/download/%E3%81%93%E3%82%8C%E3%81%AF%E9%A6%AC%E9%B9%BF%E3%81%92%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/Event.Manager.SPLWRK.ipa",
+          "localizedDescription": "Kare's note If you don't see what the screenshots have shown then you will have to reinstall the app again until it shows up.",
+          "size": 35510000,
+          "absoluteVersion": "2.2"
+        }
+      ]
+    },
+    {
+  "name": "BHTwitter",
+  "bundleIdentifier": "com.atebis.Tweetie2",
+  "developerName": "BandarHL",
+  "subtitle": "Awesome tweak for Twitter",
+  "version": "10.20",
+  "versionDate": "2023-12-17T23:59:49Z",
+  "versionDescription": "Moved from Monkeydev to Theos\nConvert all swift files to Objective-c.\n Add new script to build BHTwitter project easily.\nSupport JB rootfull and rootless.\nFix crashing in downloading longer video and freezing using FFmpeg.\nNew option to hide bookmark button.",
+  "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.2-1/BHTwitter-sideloaded.ipa",
+  "localizedDescription": "Download Videos (even if account private).\nCustom Tab Bar\nNo history feature.\nHide topics tweet feature.\nDisable video layer caption.\nPadlock.\nFont changer.\nEnable the new UI of DM search.\nAuto load photos in highest quality feature.\nUndo tweet feature.\nTheme (like Twitter Blue).\nApp icon changer\nTwitter Circle feature.\nCopying profile information feature.\nSave tweet as an image.\nHide spaces bar.\nDisable RTL.\nAlways open in Safari.\nTranslate bio.\nDisable new tweet style (A.K.A edge to edge tweet)\nEnable voice tweet and voice message in DM.\nHide promoted tweet from the timeline.\nConfirm alert when hit the tweet button.\nConfirm alert when hit like button.\nConfirm alert when hit follow button.\nFLEX for debugging.",
+  "iconURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/%F0%9D%95%8F.png",
+  "tintColor": "#000000",
+  "size": 124000000,
+  "screenshotURLs": [
+    "https://raw.githubusercontent.com/BandarHL/BHTwitter/master/1.png",
+    "https://raw.githubusercontent.com/BandarHL/BHTwitter/master/2.png",
+    "https://raw.githubusercontent.com/BandarHL/BHTwitter/master/3.png",
+    "https://raw.githubusercontent.com/BandarHL/BHTwitter/master/4.png"
+  ],
+  "versions": [
+    {
+      "version": "10.20",
+      "date": "2023-12-17T23:59:49Z",
+      "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.2-1/BHTwitter-sideloaded.ipa",
+      "localizedDescription": "Moved from Monkeydev to Theos\nConvert all swift files to Objective-c.\n Add new script to build BHTwitter project easily.\nSupport JB rootfull and rootless.\nFix crashing in downloading longer video and freezing using FFmpeg.\nNew option to hide bookmark button",
+      "size": 124000000
+    }
+  ],
+  "appID": "com.atebis.Tweetie2"
+},
+{
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "Various Developers",
+      "downloadURL": "https://github.com/arichorn/uYouEnhanced/releases/download/v18.49.3-3.0.1/uYouEnhanced_18.49.3_3.0.1.ipa",
+      "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/assets/icons/uYou.png",
+      "localizedDescription": "uYou is the best tweak for the YouTube app.\n \n uYouEnhanced is a modified version of uYouPlus & uYou with even more features.\n \n Additional features:\n • Skip sponsorships in videos (iSponsorBlock)\n • Even more PiP options (YouPiP)\n • Unlock 1440p and 2160p resolutions (YTUHD)\n • Disable overlay at the end of videos (YTNoHoverCards)\n • Remove YouTube Premium upsell alerts (NoYTPremium)\n • Enable to Dim the YouTube UI (LowContrastMode)\n • Enable the miniplayer for all videos (YTMiniplayerEnabler)\n • Prevent the notch/Dynamic Island from cutting into 2:1 videos (DontEatMyContent)\n • Configure A/B settings in the YouTube app (YTABConfig)\n • And more\n \n More information: \n https://github.com/qnblackcat/uYouPlus/ \n \n Requires iOS 14.0 or later.\n \n Contributors: MiRO92, qnblackcat, PoomSmart, level3tjg, BandarHelal, galactic, julioverne, HASHBANG, Lyvendia, Foxster, ichitaso, Ahmed Bafkir, CokePokes, Tommy Teo, theos, and many others.",
+      "name": "uYouEnhanced",
+      "screenshotURLs": [
+        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus1.jpeg?raw=true",
+        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus2.jpeg?raw=true",
+        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus3.jpeg?raw=true",
+        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus4.jpeg?raw=true",
+        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus5.jpeg?raw=true",
+        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus6.jpeg?raw=true"
+      ],
+      "size": 116113012,
+      "subtitle": "The best tweak for the YouTube app just got even better",
+      "tintColor": "e81e8a",
+      "version": "18.49.3",
+      "versionDate": "2023-12-12",
+      "versionDescription": "• Updated YouTube to 18.49.3\n • uYou is using 3.0.1\n •Full changelog: \n https://github.com/arichorn/uYouEnhanced/releases/tag/v18.49.3-3.0.1"
+    },
+    {
+      "name": "Streamer",
+      "bundleIdentifier": "com.streamer.ios",
+      "developerName": "StreamerApp",
+      "subtitle": "App for Streaming Movies and TV shows",
+      "version": "1.2.27",
+      "versionDate": "2023-11-11",
+      "versionDescription": "Implemented VLC and Infuse players integration \nImproved Real-Debrid integration performance and accuracy \nAdded a feature to choose “priority foreign language” for torrents in Real-Debrid\nResolved PIP issue for Apple TV\nResolved crash when tapping on the play button on the movie details page on Apple TV\nAdded provider logos to the favorites list\nUnified subtitle parsing logic and removed extra HTML tags from all subtitles\nResolved issue when playing a completed episode\nResolved issues for movies or TV shows with incorrect data for the same title",
+      "downloadURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/Apps/Streamer.ipa",
+      "localizedDescription": "App for Streaming Movies and TV shows on iOS and tvOS.\n\n- Stream all TV shows and Movies from multiple websites without any annoying ads\n- Supports Chromecast to stream to FireTV and Chromecasts\n- Supports multi-language subtitles for iOS and tvOS\n- Favorite functionality to quickly access your favorite shows and movies\n\nSupported providers:\n-🇺🇸 MovieBoxPro (Streamer Pro users only): 4k English content with multi-language subtitles\n-🇺🇸 Flixtor.video: English content with multi-language subtitles and HQ streaming\n-🇺🇸 FlixHQ.to: English content\n-🇺🇸 PutLocker.vip: English content\n-🇺🇸 123moviesfree.so: English content with English subtitles\n-🇩🇪 KinoKiste.club: German content\n-🇩🇪 FilmPalast.to: German content\n-🇸🇦 Akwam.to: Arabic content\n-🇸🇦 CimaNow.cc: Arabic content\n-🇸🇦 Arabseed.ink: Arabic content\n-🇸🇦 FaselHD.vip: Arabic content\n-🇰🇷 ViewAsian.co: Asian content\n-🇯🇵 Kaido.to: Anime content\n-🇯🇵 GogoAnimeHD.to: Anime content\n\n More Info:\n https://github.com/StreamerApp/Streamer",
+      "iconURL": "https://avatars.githubusercontent.com/u/96971772?s=200&v=4",
+      "tintColor": "5e5e5e",
+      "size": 21300000,
+      "permissions": [
+	{
+	"type": "LocalNetwork",
+	"usageDescription": "Streamer uses the local network to discover Cast-enabled devices on your network."
+	},
+	{
+	"type": "UserTracking",
+	"usageDescription": "App would like to access IDFA for ad tracking purpose but you can opt-out."
+	}
+      ],
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/96978272/257918803-1f5cc49f-bc36-4be1-ac38-8da48aa4d715.png",
+	"https://user-images.githubusercontent.com/96978272/257918796-072f6b5c-f51b-4681-b9ed-ab1b1ec7392e.png",
+	"https://user-images.githubusercontent.com/96978272/257918785-a8097992-bf83-41ed-afbf-85910d09b769.png",
+	"https://user-images.githubusercontent.com/96978272/257920592-d1f9f2f9-c35e-428f-afab-e9bcea356a28.png",
+	"https://user-images.githubusercontent.com/96978272/257918801-0c70e4de-bbe9-485e-8516-4133f0c0a75e.png",
+	"https://user-images.githubusercontent.com/96978272/257918798-4e78c4fb-d0c6-4c3f-91bb-817d7a2805df.png"
+      ],
+      "beta": false,
+      "versions": [
+        {
+          "version": "1.2.27",
+          "date": "2023-11-11",
+          "downloadURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/Apps/Streamer.ipa",
+          "localizedDescription": "Implemented VLC and Infuse players integration \nImproved Real-Debrid integration performance and accuracy \nAdded a feature to choose “priority foreign language” for torrents in Real-Debrid\nResolved PIP issue for Apple TV\nResolved crash when tapping on the play button on the movie details page on Apple TV\nAdded provider logos to the favorites list\nUnified subtitle parsing logic and removed extra HTML tags from all subtitles\nResolved issue when playing a completed episode\nResolved issues for movies or TV shows with incorrect data for the same title",
+          "size": 21300000
+        }
+      ],
+      "appID": "com.streamer.ios"
+    }
+  ],
+  "news": [
+    {
+      "title": "How to sideload any app!",
+      "identifier": "sideloading-is-here",
+      "caption": "Install any iOS app directly from Files by tapping the + in the My Apps tab.",
+      "tintColor": "253037",
+      "imageURL": "https://kare-wa-sunde-iru.github.io/iOS-app-repository/IMG/SideStoreUnOfficialVeryBig.png",
+      "date": "2023-04-10T13:00:00-07:00",
+      "notify": true
+    },
     {
       "title": "A Group to test iOS Sideloaded IPAs and Jailbroken Tweaks.",
       "identifier": "app-testers",
@@ -146,5 +181,7 @@
       "date": "2023-05-05",
       "notify": true
     }
-    ]
+  ],
+  "version": 2,
+  "apiVersion": "v2"
 }
