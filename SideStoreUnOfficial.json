@@ -170,6 +170,16 @@
       "imageURL": "https://kare-wa-sunde-iru.github.io/iOS-app-repository/IMG/SideStoreUnOfficialVeryBig.png",
       "date": "2023-04-10T13:00:00-07:00",
       "notify": true
+    },
+    {
+      "title": "A Group to test iOS Sideloaded IPAs and Jailbroken Tweaks.",
+      "identifier": "app-testers",
+      "caption": "Apptesters.org is a well-know repository to bring all the latest apps and games all in one place from multiple developers. Click the image below to add their repo.",
+      "tintColor": "000000",
+      "imageURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/Apptesters.org.png",
+      "url": "https://tinyurl.com/ApptestersRepo",
+      "date": "2023-05-05",
+      "notify": true
     }
   ],
   "version": 2,
