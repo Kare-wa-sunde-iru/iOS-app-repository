@@ -163,11 +163,12 @@
   ],
   "news": [
     {
-      "title": "How to sideload any app!",
-      "identifier": "sideloading-is-here",
-      "caption": "Install any iOS app directly from Files by tapping the + in the My Apps tab.",
+      "title": "Thanks For Adding The Repository",
+      "identifier": "thank-you",
+      "caption": "If you want me to add a certain app then click here to create an issue",
       "tintColor": "253037",
       "imageURL": "https://kare-wa-sunde-iru.github.io/iOS-app-repository/IMG/SideStoreUnOfficialVeryBig.png",
+      "url": "https://github.com/Kare-wa-sunde-iru/iOS-app-repository/issues",
       "date": "2023-04-10T13:00:00-07:00",
       "notify": true
     },
