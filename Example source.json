@@ -174,7 +174,7 @@
     {
       "title": "A Group to test iOS Sideloaded IPAs and Jailbroken Tweaks.",
       "identifier": "app-testers",
-      "caption": "Apptesters.org has partnered with well-know developers like DPixelStore and KamoHacks and many more, to bring all the new latest, and updated apps and games all in one place. Click the image below to add their website",
+      "caption": "Apptesters.org is a well-know repository to bring all the latest apps and games all in one place from multiple developers. Click the image below to add their repo.",
       "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/Apptesters.org.png",
       "url": "https://tinyurl.com/ApptestersRepo",
