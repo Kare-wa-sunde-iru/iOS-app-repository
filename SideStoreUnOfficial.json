@@ -6,36 +6,6 @@
   "userinfo": {},
   "apps": [
     {
-      "name": "ShowMaina",
-      "bundleIdentifier": "com.cypwn.O3C.showmania",
-      "developerName": "O3C",
-      "version": "1.0.5",
-      "versionDate": "2023-05-12T23:59:49Z",
-      "versionDescription": "# v1.0.5\n\n",
-      "downloadURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/Apps/ShowMania_1.0.5_1702971015.ipa",
-      "localizedDescription": "From the creators of HDO Box cracked by O3C",
-      "iconURL": "https://i.imgur.com/tHSYAwS.jpg",
-      "tintColor": "#5F1B09",
-      "size": 14509458,
-      "screenshotURLs": [
-		"https://ipa.cypwn.xyz/serve/screenshots/DramaFlix_1.1.0/DramaFlix_1.1.0.ipa655.png",
-                "https://ipa.cypwn.xyz/serve/screenshots/DramaFlix_1.1.0/DramaFlix_1.1.0.ipa106.png"
-            ],
-      "subtitle": "Movie App",
-      "absoluteVersion": "1.0.5",
-      "appID": "com.cypwn.O3C.showmania",
-      "versions": [
-        {
-          "version": "1.0.5",
-          "date": "2022-09-18T23:59:49Z",
-          "downloadURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/Apps/ShowMania_1.0.5_1702971015.ipa",
-          "localizedDescription": "# v1.0.5\n\n",
-          "size": 13840000,
-          "absoluteVersion": "1.0.5"
-        }
-      ]
-    },
-    {
       "name": "Event Manager",
       "bundleIdentifier": "com.eventmanager.movie.SPLWRK",
       "developerName": "SloppyWrk",
@@ -51,6 +21,16 @@
 		"https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/Screenshots/EveMan1.png",
                 "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/Screenshots/EveMan2.png"
             ],
+      "permissions": [
+	{
+	"type": "LocalNetwork",
+	"usageDescription": "App uses the local network to discover Cast-enabled devices on your network."
+	},
+	{
+	"type": "UserTracking",
+	"usageDescription": "App would like to access IDFA for ad tracking purpose but you can opt-out."
+	}
+      ],
       "subtitle": "SloppyWrk Movie App",
       "absoluteVersion": "2.2",
       "appID": "com.eventmanager.movie.SPLWRK",
@@ -62,6 +42,46 @@
           "localizedDescription": "Kare's note If you don't see what the screenshots have shown then you will have to reinstall the app again until it shows up.",
           "size": 35510000,
           "absoluteVersion": "2.2"
+        }
+      ]
+    },
+    {
+      "name": "ShowMaina",
+      "bundleIdentifier": "com.cypwn.O3C.showmania",
+      "developerName": "O3C",
+      "version": "1.0.5",
+      "versionDate": "2023-05-12T23:59:49Z",
+      "versionDescription": "# v1.0.5",
+      "downloadURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/Apps/ShowMania_1.0.5_1702971015.ipa",
+      "localizedDescription": "cracked by O3C",
+      "iconURL": "https://i.imgur.com/tHSYAwS.jpg",
+      "tintColor": "#5F1B09",
+      "size": 14509458,
+      "screenshotURLs": [
+		"https://ipa.cypwn.xyz/serve/screenshots/DramaFlix_1.1.0/DramaFlix_1.1.0.ipa655.png",
+                "https://ipa.cypwn.xyz/serve/screenshots/DramaFlix_1.1.0/DramaFlix_1.1.0.ipa106.png"
+            ],
+      "permissions": [
+	{
+	"type": "LocalNetwork",
+	"usageDescription": "Showmaina uses the local network to discover Cast-enabled devices on your network."
+	},
+	{
+	"type": "UserTracking",
+	"usageDescription": "App would like to access IDFA for ad tracking purpose but you can opt-out."
+	}
+      ],
+      "subtitle": "Movie App",
+      "absoluteVersion": "1.0.5",
+      "appID": "com.cypwn.O3C.showmania",
+      "versions": [
+        {
+          "version": "1.0.5",
+          "date": "2022-09-18T23:59:49Z",
+          "downloadURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/Apps/ShowMania_1.0.5_1702971015.ipa",
+          "localizedDescription": "# v1.0.5\n\n",
+          "size": 13840000,
+          "absoluteVersion": "1.0.5"
         }
       ]
     },
@@ -98,7 +118,7 @@
 {
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "Various Developers",
-      "downloadURL": "https://github.com/arichorn/uYouEnhanced/releases/download/v18.49.3-3.0.1/uYouEnhanced_18.49.3_3.0.1.ipa",
+      "downloadURL": "https://github.com/arichornlover/uYouEnhanced/releases/download/v19.06.2-3.0.2/uYouEnhanced_19.06.2_3.0.2.ipa",
       "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/assets/icons/uYou.png",
       "localizedDescription": "uYou is the best tweak for the YouTube app.\n \n uYouEnhanced is a modified version of uYouPlus & uYou with even more features.\n \n Additional features:\n • Skip sponsorships in videos (iSponsorBlock)\n • Even more PiP options (YouPiP)\n • Unlock 1440p and 2160p resolutions (YTUHD)\n • Disable overlay at the end of videos (YTNoHoverCards)\n • Remove YouTube Premium upsell alerts (NoYTPremium)\n • Enable to Dim the YouTube UI (LowContrastMode)\n • Enable the miniplayer for all videos (YTMiniplayerEnabler)\n • Prevent the notch/Dynamic Island from cutting into 2:1 videos (DontEatMyContent)\n • Configure A/B settings in the YouTube app (YTABConfig)\n • And more\n \n More information: \n https://github.com/qnblackcat/uYouPlus/ \n \n Requires iOS 14.0 or later.\n \n Contributors: MiRO92, qnblackcat, PoomSmart, level3tjg, BandarHelal, galactic, julioverne, HASHBANG, Lyvendia, Foxster, ichitaso, Ahmed Bafkir, CokePokes, Tommy Teo, theos, and many others.",
       "name": "uYouEnhanced",
@@ -115,7 +135,7 @@
       "tintColor": "e81e8a",
       "version": "18.49.3",
       "versionDate": "2023-12-12",
-      "versionDescription": "• Updated YouTube to 18.49.3\n • uYou is using 3.0.1\n •Full changelog: \n https://github.com/arichorn/uYouEnhanced/releases/tag/v18.49.3-3.0.1"
+      "versionDescription": "• Updated YouTube to 19.06.2\n • uYou is using 3.0.2\n • Full changelog: \n https://github.com/arichornlover/uYouEnhanced/releases/tag/v19.06.2-3.0.2"
     },
     {
       "name": "Streamer",
@@ -168,17 +188,16 @@
       "caption": "If you want me to add a certain app then click here to create an issue",
       "tintColor": "253037",
       "imageURL": "https://kare-wa-sunde-iru.github.io/iOS-app-repository/IMG/SideStoreUnOfficialVeryBig.png",
-      "url": "https://github.com/Kare-wa-sunde-iru/iOS-app-repository/issues",
       "date": "2023-04-10T13:00:00-07:00",
       "notify": true
     },
     {
       "title": "A Group to test iOS Sideloaded IPAs and Jailbroken Tweaks.",
       "identifier": "app-testers",
-      "caption": "Apptesters.org is a well-know repository to bring all the latest apps and games all in one place from multiple developers. Click the image below to add their repo.",
+      "caption": "Apptesters.org is a well-know repository to bring all the latest apps and games all in one place from multiple developers. Click the image below to view their website.",
       "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/Apptesters.org.png",
-
+      "url": "https://apptesters.org/",
       "date": "2023-05-05",
       "notify": true
     }
