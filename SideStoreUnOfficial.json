@@ -92,9 +92,9 @@
   "subtitle": "Awesome tweak for Twitter",
   "version": "10.20",
   "versionDate": "2023-12-17T23:59:49Z",
-  "versionDescription": "Moved from Monkeydev to Theos\nConvert all swift files to Objective-c.\n Add new script to build BHTwitter project easily.\nSupport JB rootfull and rootless.\nFix crashing in downloading longer video and freezing using FFmpeg.\nNew option to hide bookmark button.",
-  "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.2-1/BHTwitter-sideloaded.ipa",
-  "localizedDescription": "Download Videos (even if account private).\nCustom Tab Bar\nNo history feature.\nHide topics tweet feature.\nDisable video layer caption.\nPadlock.\nFont changer.\nEnable the new UI of DM search.\nAuto load photos in highest quality feature.\nUndo tweet feature.\nTheme (like Twitter Blue).\nApp icon changer\nTwitter Circle feature.\nCopying profile information feature.\nSave tweet as an image.\nHide spaces bar.\nDisable RTL.\nAlways open in Safari.\nTranslate bio.\nDisable new tweet style (A.K.A edge to edge tweet)\nEnable voice tweet and voice message in DM.\nHide promoted tweet from the timeline.\nConfirm alert when hit the tweet button.\nConfirm alert when hit like button.\nConfirm alert when hit follow button.\nFLEX for debugging.",
+  "versionDescription": "• Upload custom voice\n• Select URL host like fxtwitter or vxtwitter of tweet after copy.\n • remove unnecessary options.",
+  "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.3/BHTwitter-sideloaded.ipa",
+  "localizedDescription": "• Download Videos (even if account private).\n • Custom Tab Bar\nNo history feature.\n • Hide topics tweet feature.\n • Disable video layer caption.\n • Padlock.\n • Font changer.\n • Enable the new UI of DM search.\n • Auto load photos in highest quality feature.\n • Undo tweet feature.\n • Theme (like Twitter Blue).\n • App icon changer\n • Twitter Circle feature.\n • Copying profile information feature.\n • Save tweet as an image.\n • Hide spaces bar.\n • Disable RTL.\n • Always open in Safari.\n • Translate bio.\n • Disable new tweet style (A.K.A edge to edge tweet)\n • Enable voice tweet and voice message in DM.\n • Hide promoted tweet from the timeline.\n • Confirm alert when hit the tweet button.\n • Confirm alert when hit like button.\n • Confirm alert when hit follow button.\n • FLEX for debugging.",
   "iconURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/%F0%9D%95%8F.png",
   "tintColor": "#000000",
   "size": 124000000,
@@ -108,8 +108,8 @@
     {
       "version": "10.20",
       "date": "2023-12-17T23:59:49Z",
-      "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.2-1/BHTwitter-sideloaded.ipa",
-      "localizedDescription": "Moved from Monkeydev to Theos\nConvert all swift files to Objective-c.\n Add new script to build BHTwitter project easily.\nSupport JB rootfull and rootless.\nFix crashing in downloading longer video and freezing using FFmpeg.\nNew option to hide bookmark button",
+      "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.3/BHTwitter-sideloaded.ipa",
+      "localizedDescription": "• Upload custom voice\n • Select URL host like fxtwitter or vxtwitter of tweet after copy.\n • remove unnecessary options.",
       "size": 124000000
     }
   ],
